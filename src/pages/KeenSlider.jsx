@@ -17,7 +17,7 @@ const Slide = styled.div`
 `;
 
 export const KeenSlider = () => {
-  const [sliderRef, instanceRef] = useKeenSlider(
+  const [sliderRef] = useKeenSlider(
     // {
     // slideChanged() {
     //   console.log('slide changed')

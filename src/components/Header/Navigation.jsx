@@ -16,7 +16,7 @@ export const Navigation = () => {
         <NavLink to="keenslider">KeenSlider</NavLink>
       </li>
         <li>
-        <NavLink to="micromodal">MicroModal</NavLink>
+        <NavLink to="carouselslider">CarouselSlider</NavLink>
       </li>
     </NavList>
   );
