@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { KeenSlider } from "pages/KeenSlider";
 import { Header } from "components/Header/Header";
 import { CarouselSlider } from "pages/CarouselSlider";
+import { DigitalClock } from "pages/Clock";
 
 export const App = () => {
   return (
@@ -9,7 +10,8 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index path="keenslider" element={<KeenSlider />} />
-          <Route index path="carouselslider" element={<CarouselSlider />} />
+          <Route path="carouselslider" element={<CarouselSlider />} />
+          <Route path="clock" element={<DigitalClock />} />
         </Route>
       </Routes>
     </div>

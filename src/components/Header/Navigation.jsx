@@ -15,8 +15,13 @@ export const Navigation = () => {
       }}>
         <NavLink to="keenslider">KeenSlider</NavLink>
       </li>
-        <li>
+      <li style={{
+          marginRight: '10px',
+      }}>
         <NavLink to="carouselslider">CarouselSlider</NavLink>
+      </li>
+      <li>
+        <NavLink to="clock">DigitalClock</NavLink>
       </li>
     </NavList>
   );
