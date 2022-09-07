@@ -1,0 +1,9 @@
+@keyframes scroll-x {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14)));
+  }
+}

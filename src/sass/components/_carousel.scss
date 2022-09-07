@@ -47,8 +47,9 @@
   margin: 0 0 0.7em;
   color: #000000;
 }
-  
-.card p, h2 {
+
+.card p,
+h2 {
   transition: all 0.3s ease-out;
   opacity: var(--active);
 }
@@ -75,15 +76,4 @@
 .nav.right {
   right: 0;
   transform: translateX(100%) translatey(-50%);
-}
-
-/* ==================================================== LOGO WALL ANIMATION */ 
-@keyframes scroll-x {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(calc(-100% - calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14)));
-  }
 }
