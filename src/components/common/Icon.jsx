@@ -1,8 +1,8 @@
 import Icons from 'icons/icons.svg';
 
-export const Icon = ({ name, width, height }) => {
+export const Icon = ({ name, size }) => {
   return (
-    <svg width={width} height={height}>
+    <svg width={size} height={size}>
       <use href={Icons + `#${name}`} />
     </svg>
   )
