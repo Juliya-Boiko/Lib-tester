@@ -23,8 +23,11 @@ export const Navigation = () => {
       <li style={{ marginRight: '10px', }}>
         <NavLink to="logowall">LogoWall</NavLink>
       </li>
-      <li>
+      <li style={{ marginRight: '10px', }}>
         <NavLink to="firebaseauth">FirebaseAuth</NavLink>
+      </li>
+      <li>
+        <NavLink to="waves">Waves</NavLink>
       </li>
     </NavList>
   );

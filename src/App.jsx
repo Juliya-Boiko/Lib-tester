@@ -5,6 +5,7 @@ import { CarouselSlider } from "pages/CarouselSlider";
 import { DigitalClock } from "pages/Clock";
 import { LogoWall } from "pages/LogoWall";
 import { FirebaseAuth } from "pages/FirebaseAuth";
+import { WavesDesign } from "pages/WavesDesign";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
           <Route path="clock" element={<DigitalClock />} />
           <Route path="logowall" element={<LogoWall />} />
           <Route path="firebaseauth" element={<FirebaseAuth />} />
+          <Route path="waves" element={<WavesDesign />} />
         </Route>
       </Routes>
     </div>
