@@ -26,7 +26,7 @@ export const Navigation = () => {
       <li style={{ marginRight: '10px', }}>
         <NavLink to="firebaseauth">FirebaseAuth</NavLink>
       </li>
-      <li>
+      <li style={{ marginRight: '10px', }}>
         <NavLink to="waves">Waves</NavLink>
       </li>
     </NavList>
